@@ -65,18 +65,36 @@ footer{
     align-items: center;
 }
 
-span{
-    font-size: 10px;
-    margin-left: 6px;
-}
-
 .footer-center, .footer-left{
     display: flex;
-    gap: 25px;
     font-size: 23px;
 }
 
-.ending{
+.footer-left{
+    margin-left: 10px;
+    gap: 25px;
+}
+
+.footer-center{
+    gap: 25px;
+}
+
+.column p{
+    font-size: 11px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.green{
+    color: rgb(75, 201, 0);
+}
+
+.footer-right{
     height: 100%;
     font-size: 8px;
     color: red;
