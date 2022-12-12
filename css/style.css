@@ -22,7 +22,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 button {
@@ -56,5 +56,37 @@ button {
 
 /* FOOTER */
 footer{
+    height: 80px;
+    margin-top: 20px;
+    color: white;
     background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+span{
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.footer-center, .footer-left{
+    display: flex;
+    gap: 25px;
+    font-size: 23px;
+}
+
+.ending{
+    height: 100%;
+    font-size: 8px;
+    color: red;
+    background-color: rgb(74, 74, 74);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+
+
+
+
