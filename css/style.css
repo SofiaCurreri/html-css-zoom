@@ -6,7 +6,12 @@
 
 .container{
     margin: 0 auto;
-    width: 1200px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
 }
 
 body {
@@ -17,6 +22,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 40px;
 }
 
 button {
@@ -26,4 +32,29 @@ button {
     color: white;
     background-color: rgb(74, 74, 74);
     border-radius: 5px;
+}
+
+/* MAIN */
+
+.column{
+    position: relative;
+}
+
+.column img{
+    height: 100%;
+}
+
+.etichetta{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(34, 34, 34);
 }
