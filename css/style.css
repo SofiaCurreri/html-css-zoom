@@ -40,10 +40,6 @@ button {
     position: relative;
 }
 
-.column img{
-    height: 100%;
-}
-
 .etichetta{
     color: white;
     background-color: rgba(128, 128, 128, 0.5);
@@ -73,6 +69,13 @@ footer{
 .footer-left{
     margin-left: 10px;
     gap: 25px;
+}
+
+.resize{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
 }
 
 .footer-center{
